@@ -15,9 +15,9 @@
         href="static/css/style.css"
     />
 </head>
-<body>
+<body class="bg-dark">
     <div class="wrapper">
-        <nav class="navbar navbar-expand-lg">
+        <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
             <a 
                 class="navbar-brand"
                 href="index.html">
@@ -26,14 +26,15 @@
         </nav>
     </div>
     <div class="jumbotron">
-        <h1>The Truth is Out There.</h1>
+        <h1 class="display-4">The Truth is Out There.</h1>
     </div>
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-4">
-                <h3>UFO Sightings: Fact or Fancy? <br><small>Ufologists Weight In</small></h3>
+                <h3>UFO Sightings: <br>Fact or Fancy? <br><small>Ufologists Weight In</small></h3>
+                <img src="static/images/ufo.jpeg" class="img-responsive">
             </div>
-            <div class="col-md-8">
+            <div class="col-md-8 font-italic">
                 <p>Are we alone in the universe? For millennia, humans have turned to the sky to answer this question. 
                     Now, thanks to research generously funded by W. Avy, a UFO-enthusiast and amateur ufologist, we can 
                     supplement our sky-searching with data analysis.<br><br>"The release of this analysis is well-timed: 
@@ -54,16 +55,37 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-3">
-                <form>
-                    <p>Filter Search</p>
-                        <ul class="list-group">
-                            <li class="list-group-item">
-                                <label for="date">Enter Date</label>
-                                <input type="text" placeholder="1/10/2010" id="datetime"/>
+                <form class="bg-dark">
+                    <p>Filter Search (all lower case, please)</p>
+                        <ul class="list-group bg-dark">
+                            <li class="filter list-group-item bg-dark">
+                                <label for="date">Enter Date:</label>
+                                <br>
+                                <input type="text" placeholder="d/mm/yyyy" id="datetime"/>
                             </li>
-                            <li class="list-group-item">
-                                <button id="filter-btn" type="button" class="btn btn-default">Filter Table</button>
+                            <li class="filter list-group-item bg-dark">
+                                <label for="city">Enter City:</label>
+                                <br>
+                                <input type="text" placeholder="city name" id="city"/>
                             </li>
+                            <li class="filter list-group-item bg-dark">
+                                <label for="state">Enter State Abbreviation:</label>
+                                <br>
+                                <input type="text" placeholder="oh" id="state"/>
+                            </li>
+                            <li class="filter list-group-item bg-dark">
+                                <label for="country">Enter Country Abbreviaion:</label>
+                                <br>
+                                <input type="text" placeholder="us" id="country"/>
+                            </li>
+                            <li class="filter list-group-item bg-dark">
+                                <label for="shape">Enter Shape Observed:</label>
+                                <br>
+                                <input type="text" placeholder="triangle" id="shape"/>
+                            </li>
+                            <li class="list-group-item bg-dark">
+                                <button id="filter-btn" type="button" class="btn btn-success">Click to Filter Table</button>
+                            </li>          
                         </ul>
                 </form>
             </div>
@@ -87,6 +109,6 @@
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.11.0/d3.js"></script>
     <script src="static/js/data.js"></script>
-    <script src="static/js/app.js"></script>
+    <script src="static/js/pseudoCode.js"></script>
 </body>
 </html>
