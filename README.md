@@ -10,6 +10,6 @@ Module 11: UFO Sightings with JavaScript
 ## Recommendations for further development:<br>
 - The website would greatly benefit from a datepicker vs. the manual date entry
 - Drop-down selection choices based off the dataset over the table headers would be more effective than entry boxes<br>
-## <pre> [pseudoCode.js]()        [style.css](https://github.com/mydogmandy/011-UFOs/blob/master/static/css/style.css)        [index.html]()</pre>
+## <pre> [pseudoCode.js]()        [style.css](https://github.com/mydogmandy/011-UFOs/blob/master/static/css/style.css)        [index.html](https://github.com/mydogmandy/011-UFOs/blob/master/index.html)</pre>
 
 <img src="https://github.com/mydogmandy/011-UFOs/blob/master/ufo_website.png"/>
