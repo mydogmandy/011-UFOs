@@ -1,5 +1,6 @@
 # 011-UFOs
-Module 11: UFO Sightings with JavaScript
+UFO Sightings with JavaScript
+https://mydogmandy.github.io/UFOs/
 
 ## Purpose of the project:<br>
 - Create dynamic tables that change based off user input and do not require a full page reload
